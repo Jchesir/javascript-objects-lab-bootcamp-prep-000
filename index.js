@@ -14,5 +14,6 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, ingredient, seasoning
 
 function deleteFromObjectByKey(recipes, ingredient){
  delete recipes.ingredient
- return recipes
+ return Object.assign ({}, recipes, meat)
+
 }

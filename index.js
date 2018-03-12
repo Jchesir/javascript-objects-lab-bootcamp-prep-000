@@ -6,7 +6,7 @@ return Object.assign ({}, recipes, meat)
 
 }
 
-function destrubctivelyUpdateObjectWithKeyAndValue(recipes, ingredient, seasoning){
+function destructivelyUpdateObjectWithKeyAndValue(recipes, ingredient, seasoning){
   recipes [ingredient] = seasoning
   return recipes
   

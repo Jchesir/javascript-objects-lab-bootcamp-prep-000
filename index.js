@@ -12,4 +12,6 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, ingredient, seasoning
   
 }
 
-function 
+function deleteFromObjectByKey(recipes, ingredient){
+
+}

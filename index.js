@@ -17,5 +17,5 @@ return delete recipes.ingredient
 }
 
 function destructivelyDeleteFromObjectByKey (recipes, ingredient){
-return 
+return del
 }

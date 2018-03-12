@@ -13,9 +13,6 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, ingredient, seasoning
 }
 
 function deleteFromObjectByKey(recipes, ingredient){
-return delete recipes.ingredient
-}
-
-function destructivelyDeleteFromObjectByKey (recipes, ingredient){
-return del
+ delete recipes.ingredient
+ return recipes
 }
